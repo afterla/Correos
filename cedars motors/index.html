@@ -6,8 +6,9 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<!--<![endif]-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark">
+    <meta name="supported-color-schemes" content="light dark">
 	<style type="text/css">
-
         @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700;900&display=swap');
          /* iOS BLUE LINKS */
         a[x-apple-data-detectors] {
@@ -26,6 +27,10 @@
 		.gt a {
 			text-decoration: none !important;
         }
+        .ii a[href],
+        .zmPCnt a[href] {
+            color: #fff!important;
+        }
         a {
 			color: inherit !important;
             text-decoration: none !important;
@@ -41,8 +46,10 @@
         img {
             -ms-interpolation-mode: bicubic;
         }
+        .background-dark {
+            background: #ffffff!important;
+        }
         @media all and (max-width:639px) { 
-
 			.txt-mobile {
                 font-size: 28px !important;
                 line-height: 125% !important; 
@@ -82,8 +89,12 @@
                 margin: auto;
             }
         }
-
-        
+        @media (prefers-color-scheme: dark ) {
+            .background-dark,
+            [data-ogsc] .background-dark {
+                background: #ffffff!important;
+            }
+        }
 	</style>
 	<!--[if (gte mso 9)|(IE)]>
 	<style type="text/css">
@@ -116,9 +127,11 @@
             </td>
         </tr>
         <tr align="center">
-            <td align="center" class="txt-mobilev2" style=" width: 400px;padding-top:20px;padding-right:45px;padding-left:45px;font-family:Titillium Web,Arial,sans-serif;font-weight:400;text-align: center;background: #ffffff; padding-bottom: 20px; margin-top: 65px; display: block;">
-                <h2 style="color: #EE9B23; font-size: 40px;text-transform: uppercase;letter-spacing: 0.04em;font-weight: bold;background: #fff;margin:0">In July </h2>
-                <h3 style="color: #4F4F4F; letter-spacing: 0.04em; font-size: 29px;background: #fff; margin:0;">we have renewed stock</h3>
+            <td align="center" class="txt-mobilev2 background-dark" style=" width: 70%;padding-top:20px;padding-right:45px;padding-left:45px;font-family:Titillium Web,Arial,sans-serif;font-weight:400;text-align: center;padding-bottom: 20px; margin-top: 65px; display: block;background: #fff!important;">
+                <div style="background: #fff!important;">
+                    <h2 style="color: #EE9B23!important; font-size: 40px;text-transform: uppercase;letter-spacing: 0.04em;font-weight: bold;margin:0">In July</h2>
+                    <h3 style="color: #4F4F4F!important; letter-spacing: 0.04em; font-size: 29px;margin:0;">we have renewed stock</h3>
+                </div>
             </td>
         </tr>
         <tr>
@@ -283,8 +296,8 @@
                                     <td>
                                         <img src="https://raw.githubusercontent.com/afterla/Correos/main/cedars%20motors/img/icon-correo.png" alt="icon">
                                     </td>
-                                    <td style="letter-spacing: 0.15em; color: #FFFFFF; font-size: 10px; font-weight: 600; font-family:Titillium Web,Arial,sans-serif;">
-                                        sales@cedarsmotors.com
+                                    <td style="letter-spacing: 0.15em; color: #FFFFFF; font-size: 10px; font-weight: 600; font-family:Titillium Web,Arial,sans-serif;text-decoration: none!important;">
+                                        <a href="mailto:sales@cedarsmotors.com" style="text-decoration: none!important;color: #ffffff;">sales@cedarsmotors.com</a>
                                     </td>
                                 </tr>
                             </table>
@@ -338,17 +351,9 @@
         </tr>
         <tr>
             <td align="center" style="background: #EE9B23; padding: 8px 0px;margin: 20px 0;color: #FFFFFF;letter-spacing: 0.24em;font-size: 11.469px;font-family:Titillium Web,Arial,sans-serif;font-weight: bold;">
-                <a href="https://cedarsmotors.com/" style="background: #EE9B23;color: #FFFFFF;letter-spacing: 0.24em;font-size: 11.469px;font-family:Titillium Web,Arial,sans-serif;font-weight: bold;">cedarsmotors.com</a>
+                <a href="https://cedarsmotors.com/" style="background: #EE9B23;color: #FFFFFF;letter-spacing: 0.24em;text-decoration:none!important;font-size: 11.469px;font-family:Titillium Web,Arial,sans-serif;font-weight: bold;">cedarsmotors.com</a>
             </td>
         </tr>
-
-
-        
-
-
-
-
-        
 	</table>
 </body>
 </html>
