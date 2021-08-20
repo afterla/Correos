@@ -11,7 +11,11 @@
     <meta name="x-apple-disable-message-reformatting" />
 	<style type="text/css">
         @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700;900&display=swap');
-         /* iOS BLUE LINKS */
+        :root {
+            color-scheme: light dark;
+            supported-color-schemes: light dark;
+        }
+        /* iOS BLUE LINKS */
         a[x-apple-data-detectors] {
             color: inherit !important;
             text-decoration: none !important;
@@ -44,10 +48,14 @@
         img {
             -ms-interpolation-mode: bicubic;
         }
-        .background-dark {
-            background: #ffffff!important;
+        @media (prefers-color-scheme: dark ) {
+            .darkmode {
+				background-color: #ffffff !important;
+			}
         }
-        
+        [data-ogsc] .darkmode {
+			background-color: #ffffff !important;
+		}        
 	</style>
 	<!--[if (gte mso 9)|(IE)]>
 	<style type="text/css">
@@ -55,33 +63,29 @@
 	</style>
 	<![endif]-->
 </head>
-<body style="margin:0 auto;">
-	<table align="center"  width="650" border="0" cellspacing="0" cellpadding="0" >
+<body id="body" style="margin:0 auto;">
+	<table align="center"  width="660"  bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0" >
         <tr>
 			<td align="center" >
-				<img src="https://raw.githubusercontent.com/afterla/Correos/main/sierra%20advisor/img/1.png" alt="banner" border="0" style="width:1080px; height:auto;display:block;" />
+				<img src="https://raw.githubusercontent.com/afterla/Correos/main/sierra%20advisor/img/1.png" alt="banner" border="0" style="width:660px; height:auto;display:block;" />
 			</td>
         </tr>
         <tr>
-			<td align="center" >
-				<img src="https://raw.githubusercontent.com/afterla/Correos/main/sierra%20advisor/img/2.png" alt="banner" border="0" style="height:auto;display:block;" />
+			<td align="center">
+				<img src="https://raw.githubusercontent.com/afterla/Correos/main/sierra%20advisor/img/2.png" alt="banner" border="0" style="width:660px;height:auto;display:block;" />
 			</td>
         </tr>
-        
-
-
-
         <tr>
             <td style="display: block;">
                 <table align="center" style="background: white;">
                     <tr>
-                        <td align="left" class="cont_car" style="width: 360px">
+                        <td align="left" class="cont_car" style="width: 220px">
                             <a target="_blank" href="https://sierraadvisors.pe/que-debemos-priorizar-para-afrontar-un-periodo-de-crisis/"><img src="https://raw.githubusercontent.com/afterla/Correos/main/sierra%20advisor/img/3.png" alt="car1"></a>
                         </td>
-                        <td class="cont_car" style=" width: 360px">
+                        <td class="cont_car" style=" width: 220px">
                             <a target="_blank" href="https://sierraadvisors.pe/prestamo-reactiva-que-puedo-y-no-puedo-hacer/" target="_blank"><img src="https://raw.githubusercontent.com/afterla/Correos/main/sierra%20advisor/img/4.png" alt="car2"></a>
                         </td>
-                        <td class="cont_car" style=" width: 360px">
+                        <td class="cont_car" style=" width: 220px">
                             <a target="_blank" href="https://sierraadvisors.pe/deficit-de-capital-de-trabajo-o-riesgo-de-liquidez/" target="_blank"><img src="https://raw.githubusercontent.com/afterla/Correos/main/sierra%20advisor/img/5.png" alt="car2"></a>
                         </td>
                     </tr>
