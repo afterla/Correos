@@ -6,7 +6,14 @@
 	<!--[if !mso]><!-->
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<!--<![endif]-->
+    <meta name="color-scheme" content="light dark">
+    <meta name="supported-color-schemes" content="light dark">
+    <meta name="x-apple-disable-message-reformatting" />
 	<style type="text/css">
+        :root {
+            color-scheme: light dark;
+            supported-color-schemes: light dark;
+        }
          /* iOS BLUE LINKS */
         a[x-apple-data-detectors] {
             color: inherit !important;
@@ -39,6 +46,14 @@
         img {
             -ms-interpolation-mode: bicubic;
         }
+        @media (prefers-color-scheme: dark ) {
+            .darkmode {
+				background-color: #ffffff !important;
+			}
+        }
+        [data-ogsc] .darkmode {
+			background-color: #ffffff !important;
+		}
 	</style>
 	<!--[if (gte mso 9)|(IE)]>
 	<style type="text/css">
@@ -46,7 +61,7 @@
 	</style>
 	<![endif]-->
 </head>
-<body style="margin:0 auto;">
+<body id="body" style="margin:0 auto;">
 	<table align="center" width="1024" bgcolor="#ffffff" style="width:1024px;" border="0" cellspacing="0" cellpadding="0" >
         <tr>
             <td align="center">
@@ -55,38 +70,17 @@
         </tr>
         <tr>
             <td align="center" style="background-color: #fff;">
-                <img src="https://raw.githubusercontent.com/afterla/Correos/main/sierra%20advisor/img/2.png" alt="banner" border="0" style="width:1024px;height:auto;display:block;" />
-            </td>
-        </tr>
-        <tr>
-            <td align="center" valign="top">
-                <table width="900" cellpadding="0" cellspacing="0" border="0" class="container">
-                    <tr>
-                        <td width="300" align="center" valign="top">
-                            <a target="_blank" href="https://sierraadvisors.pe/que-debemos-priorizar-para-afrontar-un-periodo-de-crisis/">
-                                <img src="https://raw.githubusercontent.com/afterla/Correos/main/sierra%20advisor/img/post1.png" alt="car1" width="300" border="0" style="width:300px;height:auto;display:block;">
-                            </a>
-                        </td>
-                        <td width="300" align="center" valign="top">
-                            <a target="_blank" href="https://sierraadvisors.pe/prestamo-reactiva-que-puedo-y-no-puedo-hacer/" target="_blank">
-                                <img src="https://raw.githubusercontent.com/afterla/Correos/main/sierra%20advisor/img/post2.png" alt="car2" width="300" border="0" style="width:300px;height:auto;display:block;">
-                            </a>
-                        </td>
-                        <td width="300" align="center" valign="top">
-                            <a target="_blank" href="https://sierraadvisors.pe/deficit-de-capital-de-trabajo-o-riesgo-de-liquidez/" target="_blank">
-                                <img src="https://raw.githubusercontent.com/afterla/Correos/main/sierra%20advisor/img/post3.png" alt="car3" width="300" border="0" style="width:300px;height:auto;display:block;">
-                            </a>
-                        </td>
-                    </tr>
-                </table>
+                <a target="_blank" href="https://sierraadvisors.pe/">
+                    <img src="https://raw.githubusercontent.com/afterla/Correos/main/sierra%20advisor/img/contenido.png" alt="banner" border="0" style="width:1024px;height:auto;display:block;" />
+                </a>
             </td>
         </tr>
         <tr>
             <td height="40" style="font-size:40px; line-height:40px;">&nbsp;</td>
         </tr>
         <tr>
-            <td align="center" valign="top">
-                <table width="1024" cellpadding="0" bgcolor="#c69c5f" cellspacing="0" border="0" class="container">
+            <td align="center" valign="top" bgcolor="#c69c5f">
+                <table width="1024" cellpadding="0" bgcolor="#c69c5f" cellspacing="0" border="0">
                     <tr>
                         <td width="512" align="center" valign="top">
                             <div style="padding-top: 70px;">
