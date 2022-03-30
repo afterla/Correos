@@ -23,6 +23,10 @@
             font-weight: inherit !important;
             line-height: inherit !important;
         }
+
+        * {
+            font-family: 'Roboto', Arial, sans-serif !important;
+        }
         a:-webkit-any-link {
 			text-decoration: none!important;
 		}
@@ -54,20 +58,25 @@
                 display:none !important;
             }
 			.text-mob {
-                font-size: 28px !important;
+                font-size: 35px !important;
                 line-height: 125% !important; 
             }
             .text-mob-p {
-                font-size: 18px !important;
                 line-height: 125% !important; 
             }
             .text-mob-p2 {
-                font-size: 14px !important;
+                font-size: 24px !important;
                 line-height: 125% !important; 
             }
             .title-mob {
-                font-size: 30px!important;
-                line-height: 35px!important;
+                font-size: 35px!important;
+                line-height: 42px!important;
+                padding: 0 20px 0 20px !important;
+                right: 0 !important;
+                text-align: center;
+            }
+            .title-mob strong {
+                font-size: 35px!important;
             }
             .title-price {
                 font-size: 38px!important;
@@ -86,6 +95,32 @@
                 display: block!important;
                 padding: 0 !important;
             }
+            td.mobile table tbody tr td table {
+                padding: 0 20px 0 20px !important;
+            }
+
+            td.mobile table {
+                right: 0 !important;
+                margin: auto !important;
+            }
+
+            .wrapper a.text {
+                font-size: 20px !important;
+                padding: 15px 35px !important;
+            }
+
+            .wrapper a.text span {
+                font-size: 18px !important;
+            }
+
+            .wrapper .container .mobile img.img-home {
+                max-width: 100% !important;
+            }
+
+            table.wrapper td.back table.container img {
+                max-width: 85% !important;
+            }
+
         }     
         @media all and (max-width:671px) {
             td.mobile {
@@ -131,7 +166,12 @@
                 color: #203954;
         }
 
-        .title{}
+       
+        @media (prefers-color-scheme: dark) {
+            body, body .bg-white {
+                background: #ffffff !important;
+            }
+        }
 	</style>
 	<!--[if (gte mso 9)|(IE)]>
 	<style type="text/css">
@@ -140,7 +180,7 @@
 	<![endif]-->
 </head>
 <body style="margin:0 auto;">
-	<table align="center" width="100%" bgcolor="#ffffff" style="max-width:740px;" border="0" cellspacing="0" cellpadding="0" >
+	<table class="bg-white" align="center" width="100%" bgcolor="#ffffff" style="max-width:740px;" border="0" cellspacing="0" cellpadding="0" >
         <tr>
             <td  align="center" valign="top">
                 <table width="740" cellpadding="0" cellspacing="0" border="0" bgcolor="#0A2240" class="wrapper" style="padding-top: 40px;">
@@ -208,7 +248,7 @@
                     <tr >
                         <td align="center">
                             <a href="#" >
-                                <img src="https://github.com/afterla/Correos/blob/main/Bonavilla/img/mail3/btn.png?raw=true" style="width: 100%;max-width:300px;margin: 0 auto;" alt="Boton">
+                                <img src="https://github.com/afterla/Correos/blob/main/Bonavilla/img/mail3/btn.png?raw=true" style="width: 100%;max-width:320px;margin: 0 auto;" alt="Boton">
                             </a>
                         </td>
                     </tr>
@@ -229,13 +269,13 @@
                             <table width="640" cellpadding="0" cellspacing="0" border="0" class="container" >
                                 <tr>
                                     <td width="320" class="mobile" align="center" valign="top">
-                                        <img src="https://github.com/afterla/Correos/blob/main/Bonavilla/img/mail3/CASA%2083-1%202.png?raw=true" alt="Departamento" width="600" border="0" style="max-width:430px;height:auto;display:block;margin: 0 auto;" />
+                                        <img class="img-home" src="https://github.com/afterla/Correos/blob/main/Bonavilla/img/mail3/CASA%2083-1%202.png?raw=true" alt="Departamento" width="600" border="0" style="max-width:430px;height:auto;display:block;margin: 0 auto;" />
                                     </td>
                                     <td width="320" class="mobile" align="left" valign="top">
-                                        <h2 class="title-mob" style="font-family: 'Roboto';font-style: normal; font-weight: 400; font-size: 30px;;color: #192742; padding-top: 33px; position: relative;right: 44px; margin: 0 !important;"><strong class="reserva">Regístrate
-                                            y reserva</strong> 
-                                             tu casa  desde  <strong class="reserva">$1500</strong></h2>
-                 
+                                        <h2 class="title-mob" style="font-family: 'Roboto';font-style: normal; font-weight: 400; font-size: 30px;;color: #192742; padding-top: 33px; position: relative;right: 44px; margin: 0 !important;"><strong class="reserva">Regístrate</strong></h2>
+                                        <h2 class="title-mob" style="font-family: 'Roboto';font-style: normal; font-weight: 400; font-size: 30px;;color: #192742; position: relative;right: 44px; margin: 0 !important;"><strong class="reserva">y reserva</strong></h2>
+                                        <h2 class="title-mob" style="font-family: 'Roboto';font-style: normal; font-weight: 400; font-size: 30px;;color: #192742; position: relative;right: 44px; margin: 0 !important;">casa  desde</h2>
+                                        <h2 class="title-mob" style="font-family: 'Roboto';font-style: normal; font-weight: 400; font-size: 30px;;color: #192742; position: relative;right: 44px; margin: 0 !important;"><strong class="reserva">$1500</strong></h2>
                                         <table style="width: 100%;padding: 0 0 0 20px; padding-top: 16px;">
                                             <tr style="text-align: left;vertical-align: top;">
                                                 <td class="title-price" style="color: #203954; font-family:Roboto,Arial,sans-serif;font-weight: bolder;font-size: 80px;line-height: 80px; font-style: italic; letter-spacing: -0.035em;"></td>
