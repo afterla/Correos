@@ -1,0 +1,447 @@
+@font-face {
+  font-family: "bold";
+  src: url("../fonts/Montserrat-Bold.otf"); }
+@font-face {
+  font-family: "italic";
+  src: url("../fonts/Montserrat-BoldItalic.ttf"); }
+@font-face {
+  font-family: "medium";
+  src: url("../fonts/Montserrat-Medium.otf"); }
+.se__bg {
+  background-color: #1433B5; }
+
+.cover-container {
+  max-width: 1400px !important;
+  margin: auto; }
+
+.se__header .se__logo {
+  display: flex;
+  justify-content: center; }
+.se__header h1 {
+  color: #01CE93;
+  font-family: "bold";
+  font-size: 37px;
+  line-height: 45px; }
+.se__header a {
+  text-decoration: none;
+  color: #01CE93; }
+.se__header a:hover {
+  color: #FFFFFF; }
+
+.se__menu a {
+  color: #FFFFFF; }
+
+.se__banner {
+  background-image: url(../img/fondo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.se__title .se__bgtitle-2,
+.se__title .se__bgtitle {
+  background-color: #1433B5; }
+.se__title h3 {
+  font-family: "italic";
+  line-height: 77px;
+  font-size: 64px;
+  color: #01CE93; }
+.se__title h1 {
+  font-family: "medium";
+  font-size: 80px;
+  line-height: 64px;
+  color: #1433B5; }
+.se__title h5 {
+  font-family: "bold";
+  font-size: 67px;
+  line-height: 80px;
+  color: #01CE93; }
+.se__title .se__frontera {
+  font-family: "bold";
+  font-size: 72px;
+  line-height: 86px;
+  color: #1433B5; }
+.se__title .se__bgtitle-2 {
+  font-size: 67px;
+  font-family: "italic";
+  font-weight: 800;
+  line-height: 74px; }
+.se__title .se__descrip {
+  font-family: "medium";
+  font-size: 28px;
+  line-height: 33px;
+  color: #102A93;
+  text-align: justify; }
+
+.se__sec3 {
+  background-color: #1433B5; }
+  .se__sec3 .se__global {
+    font-size: 74px !important;
+    color: white;
+    line-height: 89px;
+    font-family: "italic"; }
+  .se__sec3 .se__lucas {
+    font-size: 74px !important;
+    font-family: "italic";
+    line-height: 89px;
+    color: white; }
+    .se__sec3 .se__lucas strong {
+      color: #01CE93; }
+
+.se__lucas {
+  width: 100% !important;
+  text-align: center; }
+
+.se__global {
+  width: 100% !important;
+  text-align: center; }
+
+@media (max-width: 1399px) {
+  .se__sec1 h6 {
+    font-size: 80px !important; }
+
+  .se__sec1 p {
+    font-size: 26px !important; }
+
+  .se__sec1 strong {
+    font-size: 45px !important; } }
+@media (max-width: 1999px) {
+  .se__sec1 h6 {
+    font-size: 65px !important; }
+
+  .se__sec1 p {
+    font-size: 23px !important; }
+
+  .se__sec1 strong {
+    font-size: 40px !important; }
+
+  .se__color::before {
+    content: "";
+    background-color: #1433B5;
+    position: absolute;
+    width: 87% !important;
+    height: 65% !important;
+    z-index: -1;
+    top: 43px !important;
+    border-radius: 8px;
+    left: 100px; }
+
+  .se__title .se__frontera {
+    font-size: 60px !important; }
+
+  .se__title .se__bgtitle-2 {
+    font-size: 60px !important; }
+
+  .se__sec3 .se__lucas {
+    font-size: 54px  !important; }
+
+  .se__sec3 .se__global {
+    font-size: 69px !important; }
+
+  .se__title .se__cambio-1 {
+    font-size: 80px !important;
+    line-height: 87px  !important; }
+
+  .se__title .se__cambio {
+    font-size: 40px !important; } }
+.se__color::before {
+  content: "";
+  background-color: #1433B5;
+  position: absolute;
+  width: 87% !important;
+  height: 60% !important;
+  z-index: -1;
+  top: 86px !important;
+  border-radius: 8px;
+  left: 101px !important; }
+
+@media (max-width: 767px) {
+  .se__color::before {
+    content: "";
+    background-color: #1433B5;
+    position: absolute;
+    width: 100% !important;
+    height: 106% !important;
+    z-index: -1;
+    border-radius: 8px;
+    left: 0 !important;
+    top: 0 !important; }
+
+  .se__iphone1 {
+    position: relative;
+    top: 0px !important;
+    padding: 0 !important; }
+
+  .se__sec1 h6 {
+    font-size: 60px !important;
+    text-align: center;
+    line-height: 76px !important; }
+  .se__sec1 p {
+    font-size: 24px !important;
+    text-align: center;
+    line-height: 32px !important; }
+  .se__sec1 strong {
+    font-size: 42px !important;
+    text-align: center;
+    line-height: 34px !important; }
+
+  .se__iphone1
+  img {
+    margin: 0 auto !important; }
+
+  .se__financiero {
+    padding-bottom: 60px;
+    padding-top: 50px; }
+
+  .se__cambio_descrip {
+    text-align: center !important; }
+
+  .se__cambio {
+    font-size: 39px !important; }
+
+  .se__title .se__cambio-1 {
+    font-size: 50px !important;
+    line-height: 60px !important; }
+
+  .footer__se {
+    display: block  !important; }
+
+  .se__footer1 {
+    display: block !important; }
+
+  .se__redes {
+    display: block !important; }
+
+  .center__footer {
+    text-align: center; }
+
+  .footer-logo img {
+    padding-bottom: 10px; }
+
+  .copyright {
+    padding-bottom: 10px; }
+
+  .se__sec3 .se__lucas {
+    font-size: 52px !important; }
+
+  .se__global {
+    font-size: 65px !important;
+    line-height: 60px !important; }
+
+  .se__title .se__frontera {
+    font-size: 60px !important;
+    line-height: 70px !important; }
+
+  .se__fronteras {
+    padding-top: 60px; }
+
+  .se__title .se__bgtitle-2 {
+    font-size: 60px !important; }
+
+  .se__title .se__descrip {
+    font-size: 24px !important;
+    text-align: center  !important; }
+
+  .se__banner {
+    padding-top: 60px; } }
+@media (max-width: 650px) {
+  .se__sec3
+  .se__lucas {
+    font-size: 45px !important; }
+
+  .se__sec3
+  .se__global {
+    font-size: 60px !important; }
+
+  .se__title
+  .se__cambio-1 {
+    font-size: 55px !important;
+    line-height: 60px !important; }
+
+  .se__title
+  .se__cambio {
+    font-size: 30px !important; }
+
+  .se__cambio_descrip {
+    font-size: 20px !important; }
+
+  .se__frontera {
+    font-size: 45px !important;
+    line-height: 50px !important; }
+
+  .se__fronteras {
+    padding-top: 40px  !important; }
+
+  .se__padding {
+    padding: 15px; }
+
+  .se__sec1 h6 {
+    font-size: 50px !important;
+    line-height: 58px !important; }
+
+  .se__sec1 p {
+    font-size: 21px !important;
+    line-height: 35px !important; }
+
+  .se__sec1 strong {
+    font-size: 37px !important;
+    line-height: 30px !important; }
+
+  .se__padding {
+    padding: 0 !important; }
+
+  .se__title .se__frontera {
+    font-size: 50px !important;
+    line-height: 55px !important; } }
+@media (max-width: 414px) {
+  .se__sec3 .se__lucas {
+    font-size: 40px !important; }
+
+  .se__sec3 .se__global {
+    font-size: 60px !important; }
+
+  .se__title .se__bgtitle-2 {
+    font-size: 50px !important; }
+
+  .se__title .se__cambio-1 {
+    font-size: 55px !important;
+    line-height: 60px !important; }
+
+  .se__title .se__cambio {
+    font-size: 29px !important; }
+
+  .se__cambio_descrip {
+    font-size: 20px !important; }
+
+  .se__frontera {
+    font-size: 40px !important;
+    line-height: 45px !important; }
+
+  .se__fronteras {
+    padding-top: 40px  !important; }
+
+  .se__padding {
+    padding: 15px; }
+
+  .se__sec1 h6 {
+    font-size: 50px !important;
+    line-height: 58px !important; }
+
+  .se__sec1 p {
+    font-size: 21px !important;
+    line-height: 35px !important; }
+
+  .se__sec1 strong {
+    font-size: 25px !important;
+    line-height: 21px !important; }
+
+  .se__padding {
+    padding: 0 !important; }
+
+  .se__title .se__frontera {
+    font-size: 50px !important;
+    line-height: 55px !important; }
+
+  .se__iphone1 img {
+    margin-left: -23px !important; }
+
+  .se__sec1 {
+    padding-top: 30px; } }
+.se__cambios {
+  padding-top: 60px; }
+
+.se__title .se__cambio {
+  color: #01CE93;
+  font-family: "italic";
+  font-size: 54px;
+  line-height: 56px; }
+.se__title .se__cambio-1 {
+  font-family: "bold";
+  font-size: 100px;
+  line-height: 114px;
+  color: #1433B5; }
+
+.se__cambio_descrip {
+  font-size: 28px;
+  line-height: 33px;
+  font-family: "medium";
+  color: #102A93;
+  text-align: justify; }
+
+.se__color {
+  position: relative; }
+
+.se__center {
+  align-items: center; }
+
+.se__margin {
+  margin: auto !important; }
+
+.se__iphone1 {
+  padding: 0  !important;
+  position: relative;
+  top: -41px; }
+
+.se__sec1 h6 {
+  font-family: "bold";
+  font-size: 90px;
+  line-height: 109px;
+  color: white !important; }
+.se__sec1 p {
+  font-size: 29px;
+  font-family: "medium";
+  line-height: 35px;
+  color: #FFFFFF; }
+.se__sec1 strong {
+  font-family: "italic";
+  font-size: 54px;
+  line-height: 64px;
+  color: #01CE93; }
+
+.se__iphone1 img {
+  width: 90%; }
+
+.footer__color {
+  background-color: #1433B5;
+  padding: 69px 0px 49px 0px; }
+  .footer__color .se__footer h4 {
+    margin-right: 10px; }
+  .footer__color .se__copy {
+    font-family: bold;
+    font-size: 14px;
+    line-height: 115%; }
+
+.footer__se {
+  display: flex; }
+
+.se__footer1 {
+  display: flex;
+  align-items: center; }
+  .se__footer1 .footer-logo {
+    margin-right: 15px; }
+  .se__footer1 h4 {
+    font-size: 14px;
+    font-family: "medium";
+    line-height: 115%;
+    color: #FFFFFF;
+    margin: 0; }
+
+.se__redes {
+  display: flex;
+  margin: 0;
+  align-items: center;
+  justify-content: flex-end; }
+  .se__redes h3 {
+    font-size: 14px;
+    font-family: "medium";
+    line-height: 115%;
+    color: #FFFFFF;
+    margin: 0; }
+  .se__redes .social {
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center; }
+  .se__redes .redes {
+    margin: 7px; }
+
+/*# sourceMappingURL=style.css.map */
